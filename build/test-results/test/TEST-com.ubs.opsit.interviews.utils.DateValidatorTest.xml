@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.utils.DateValidatorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-04-24T08:50:35" hostname="EPCNSZXW0272" time="0.0">
+  <properties/>
+  <testcase name="testValidateTime_Midnight" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime_Outound_HH" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime_Outound_MM" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime_Outound_SS" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime_Invalid_HH" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime_Invalid_MM" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime_Invalid_SS" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime_InvalidFormat" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidateTime" classname="com.ubs.opsit.interviews.utils.DateValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

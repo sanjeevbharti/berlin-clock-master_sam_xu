@@ -1,0 +1,55 @@
+√2017-04-24T16:50:34.575 | est worker | ClasspathStoryFinder | DEBUG  - Searching for stories called berlin-clock.story in [C:\Users\sanjeev_bharti\Downloads\berlin-clock-master_sam_xu\berlin-clock-master_sam_xu\build\classes\test, C:\Users\sanjeev_bharti\Downloads\berlin-clock-master_sam_xu\berlin-clock-master_sam_xu\build\resources\test, C:\Users\sanjeev_bharti\Downloads\berlin-clock-master_sam_xu\berlin-clock-master_sam_xu\build\classes\main] 
+ç2017-04-24T16:50:34.591 | est worker | aviouralTestEmbedder | DEBUG  - Running BehaviouralTestEmbedder with spring_stories [file:/C:/Users/sanjeev_bharti/Downloads/berlin-clock-master_sam_xu/berlin-clock-master_sam_xu/build/resources/test/stories/berlin-clock.story] 
+!Processing system properties {}
+‹Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=false,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,threads=1]
+
+(BeforeStories)
+
+ùRunning story file:/C:/Users/sanjeev_bharti/Downloads/berlin-clock-master_sam_xu/berlin-clock-master_sam_xu/build/resources/test/stories/berlin-clock.story
+Story: The Berlin Clock
+ê(file:/C:/Users/sanjeev_bharti/Downloads/berlin-clock-master_sam_xu/berlin-clock-master_sam_xu/build/resources/test/stories/berlin-clock.story)
+Meta:
+@scope interview
+
+Scenario: Midnight
+When the time is 00:00:00
+!Then the clock should look like
+Y
+OOOO
+OOOO
+OOOOOOOOOOO
+OOOO
+
+"Scenario: Middle of the afternoon
+When the time is 13:17:01
+!Then the clock should look like
+O
+RROO
+RRRO
+YYROOOOOOOO
+YYOO
+
+Scenario: Just before midnight
+When the time is 23:59:59
+!Then the clock should look like
+O
+RRRR
+RRRO
+YYRYYRYYRYY
+YYYY
+
+Scenario: Midnight
+When the time is 24:00:00
+!Then the clock should look like
+Y
+RRRR
+RRRR
+OOOOOOOOOOO
+OOOO
+
+
+
+(AfterStories)
+
+ÛGenerating reports view to 'C:\Users\sanjeev_bharti\Downloads\berlin-clock-master_sam_xu\berlin-clock-master_sam_xu\build\classes\jbehave' using formats '[stats, html, console]' and view properties '{defaultFormats=stats, decorateNonHtml=true, viewDirectory=view, decorated=ftl/jbehave-report-decorated.ftl, reports=ftl/jbehave-reports-with-totals.ftl, maps=ftl/jbehave-maps.ftl, navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl}'
+hReports view generated with 1 stories (of which 0 pending) containing 4 scenarios (of which 0 pending)

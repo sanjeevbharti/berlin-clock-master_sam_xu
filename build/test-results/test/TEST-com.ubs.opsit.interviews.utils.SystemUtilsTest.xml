@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ubs.opsit.interviews.utils.SystemUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-04-24T08:50:35" hostname="EPCNSZXW0272" time="0.0">
+  <properties/>
+  <testcase name="testSplitStringToIntArray_Exception" classname="com.ubs.opsit.interviews.utils.SystemUtilsTest" time="0.0"/>
+  <testcase name="testSplitStringToIntArray" classname="com.ubs.opsit.interviews.utils.SystemUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
